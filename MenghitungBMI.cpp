@@ -35,7 +35,8 @@ string statusBMI(float bmi)
 
 
 int main() {
-    float berat, tinggi, bmi;
+    //Deklarasi variabel untuk berat, tinggi, dan BMI
+    float berat, tinggi, bmi;  
 
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
@@ -45,6 +46,7 @@ int main() {
     //Menghitung BMI
     bmi = hitungBMI(berat, tinggi);
 
+    //Menampilkan hasil perhitungan, nilai BMI yang sudah dihitung, dan status BMI
     cout << endl;
     cout << "--- Hasil ---" << endl;
     cout << "BMI Anda : " << bmi << endl;
